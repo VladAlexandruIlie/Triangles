@@ -1,10 +1,15 @@
+package Utilities;
+
 import java.util.ArrayList;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 public class Utils {
+
+    private Utils(){}
+
     public static ArrayList<Float> findNumbers(String line) {
-        ArrayList<Float> lineInputs = new ArrayList<Float>();
+        ArrayList<Float> lineInputs = new ArrayList<>();
 
         Pattern pattern = Pattern.compile("(-?\\d+[.]?\\d*|-?\\d+)");
         Matcher matcher = pattern.matcher(line);
@@ -27,25 +32,25 @@ public class Utils {
         return !(b + c <= a) && !(a + c <= b) && !(a + b <= c);
     }
 
-    public static ArrayList<Float> selectInputs(ArrayList<Float> inputs) {
-        ArrayList<Float> paresInputs;
-
-        if (inputs.size() < 3 ){
-            System.out.println("Add " + (3 - inputs.size()) + " number(s).");
-            paresInputs = new ArrayList<Float>(inputs);
-        }
-        else if (inputs.size() > 3) {
-            System.out.println("Added too many numbers, using the first 3.");
-            paresInputs = new ArrayList<Float>(inputs.subList(0,3));
-        }
-        else {
-            System.out.println("Enough numbers to make a triangle.");
-            paresInputs = new ArrayList<Float>(inputs);
-        }
-        return paresInputs;
-    }
+//    public static ArrayList<Float> selectInputs(ArrayList<Float> inputs) {
+//        ArrayList<Float> paresInputs;
+//
+//        if (inputs.size() < 3 ){
+//            System.out.println("Add " + (3 - inputs.size()) + " number(s).");
+//            paresInputs = new ArrayList<>(inputs);
+//        }
+//        else if (inputs.size() > 3) {
+//            System.out.println("Added too many numbers, using the first 3.");
+//            paresInputs = new ArrayList<>(inputs.subList(0,3));
+//        }
+//        else {
+//            System.out.println("Enough numbers to make a triangle.");
+//            paresInputs = new ArrayList<>(inputs);
+//        }
+//        return paresInputs;
+//    }
 
     public static void printInputs(ArrayList<Float> inputs){
-        System.out.println("Edge lengths: " + inputs.toString());
+        System.out.println("Edges length: " + inputs.toString());
     }
 }
