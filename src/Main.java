@@ -21,20 +21,23 @@ public class Main {
             if (line.equals("quit"))
                 System.exit(0);
 
-            rawInputs.addAll(findNumbers(line));
+            rawInputs.addAll(findPositiveNumbers(line));
 
-            Polygon polygon = new Polygon(rawInputs);
-            polygon.determineType();
-            polygon.printInputs();
+            ArrayList<Float> parsedInputs = new ArrayList<>(selectInputs(rawInputs));
 
-            if (polygon.getType().equals("triangle")){
-                Polygon triangle = new Triangle(polygon.getEdges());
-                System.out.println("Triangle type: " + triangle.getType());
-                rawInputs.clear();
-            }
-            else if (polygon.getType().equals("invalid")){
+            if (isTriangleDimensions(parsedInputs)) {
+                if (triangleInequality(parsedInputs.get(0), parsedInputs.get(1), parsedInputs.get(2))) {
+                    Polygon triangle = new Triangle(parsedInputs);
+                    triangle.determine();
+                    System.out.println(triangle.getEdges());
+                    System.out.println("Triangle type: " + triangle.getType());
+                }
+                else {
+                    System.out.println("Invalid edge lengths !");
+                }
                 rawInputs.clear();
             }
         }
+        sc.close();
     }
 }

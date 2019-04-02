@@ -16,8 +16,9 @@ class TriangleTest {
         edges.add((float) 3);
 
         Polygon triangle = new Triangle(edges);
+        triangle.determine();
 
-        assertEquals("scalar", triangle.getType() );
+        assertEquals(Triangle.TYPE.invalid, triangle.getType() );
     }
 
     @Test
@@ -28,7 +29,9 @@ class TriangleTest {
         edges.add((float) 3);
 
         Polygon triangle = new Triangle(edges);
-        assertEquals("isosceles", triangle.getType());
+        triangle.determine();
+
+        assertEquals(Triangle.TYPE.isosceles, triangle.getType() );
     }
 
     @Test
@@ -39,7 +42,9 @@ class TriangleTest {
         edges.add((float) 3);
 
         Polygon triangle = new Triangle(edges);
-        assertEquals("equilateral", triangle.getType() );
+        triangle.determine();
+
+        assertEquals(Triangle.TYPE.equilateral, triangle.getType() );
     }
 
     @Test
@@ -50,7 +55,9 @@ class TriangleTest {
         edges.add((float) 3.2);
 
         Polygon triangle = new Triangle(edges);
-        assertEquals("scalar", triangle.getType() );
+        triangle.determine();
+
+        assertEquals(Triangle.TYPE.scalar, triangle.getType() );
     }
 
     @Test
@@ -61,7 +68,9 @@ class TriangleTest {
         edges.add((float) 3.7);
 
         Polygon triangle = new Triangle(edges);
-        assertEquals("isosceles", triangle.getType() );
+        triangle.determine();
+
+        assertEquals(Triangle.TYPE.isosceles, triangle.getType() );
     }
 
     @Test
@@ -72,6 +81,8 @@ class TriangleTest {
         edges.add((float) 3.3);
 
         Polygon triangle = new Triangle(edges);
-        assertEquals("equilateral", triangle.getType() );
+        triangle.determine();
+
+        assertEquals(Triangle.TYPE.equilateral, triangle.getType() );
     }
 }

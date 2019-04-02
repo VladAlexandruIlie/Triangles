@@ -2,7 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a12207a0-3c6c-45ef-9f29-9520d8dcd94d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Shapes/Polygon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Shapes/Polygon.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Shapes/Triangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Shapes/Triangle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Utilities/Utils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Utilities/Utils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/PolygonTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/tests/PolygonTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/TriangleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/tests/TriangleTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/UtilsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/tests/UtilsTest.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -18,14 +25,14 @@
     <option name="delegatedBuild" value="true" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.4260761">
+    <splitter split-orientation="horizontal" split-proportion="0.56269497">
       <split-first>
         <leaf>
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/Main.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="272">
-                  <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+                <state relative-caret-position="103">
+                  <caret line="30" column="41" lean-forward="true" selection-start-line="30" selection-start-column="41" selection-end-line="30" selection-end-column="41" />
                   <folding>
                     <element signature="imports" expanded="true" />
                   </folding>
@@ -36,10 +43,12 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/Utilities/Utils.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="758">
-                  <caret line="55" column="1" selection-start-line="55" selection-start-column="1" selection-end-line="55" selection-end-column="1" />
+                <state relative-caret-position="704">
+                  <caret line="52" column="26" selection-start-line="52" selection-start-column="26" selection-end-line="52" selection-end-column="26" />
                   <folding>
                     <element signature="imports" expanded="true" />
+                    <element signature="e#1571#1572#0" expanded="true" />
+                    <element signature="e#1617#1618#0" expanded="true" />
                   </folding>
                 </state>
               </provider>
@@ -57,38 +66,30 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/Shapes/Polygon.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="391">
-                  <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+                <state relative-caret-position="255">
+                  <caret line="15" column="16" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
                   <folding>
-                    <element signature="imports" expanded="true" />
                     <element signature="e#214#215#0" expanded="true" />
                     <element signature="e#252#253#0" expanded="true" />
-                    <element signature="e#1101#1102#0" expanded="true" />
-                    <element signature="e#1177#1178#0" expanded="true" />
-                    <element signature="e#1262#1263#0" expanded="true" />
-                    <element signature="e#1339#1340#0" expanded="true" />
+                    <element signature="e#296#297#0" expanded="true" />
+                    <element signature="e#372#373#0" expanded="true" />
                   </folding>
                 </state>
               </provider>
             </entry>
           </file>
           <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/README.md">
-              <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-                <state split_layout="SPLIT">
-                  <first_editor relative-caret-position="289">
-                    <caret line="17" column="12" selection-start-line="17" selection-start-column="12" selection-end-line="17" selection-end-column="12" />
-                  </first_editor>
-                  <second_editor />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/Shapes/Triangle.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="187">
-                  <caret line="11" selection-start-line="11" selection-end-line="11" />
+                <state relative-caret-position="476">
+                  <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                    <element signature="e#160#161#0" expanded="true" />
+                    <element signature="e#188#189#0" expanded="true" />
+                    <element signature="e#585#586#0" expanded="true" />
+                    <element signature="e#612#613#0" expanded="true" />
+                  </folding>
                 </state>
               </provider>
             </entry>
@@ -100,28 +101,36 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/tests/TriangleTest.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="102">
-                  <caret line="12" column="51" lean-forward="true" selection-start-line="12" selection-start-column="51" selection-end-line="12" selection-end-column="51" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/tests/PolygonTest.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="1173">
-                  <caret line="76" column="79" selection-start-line="76" selection-start-column="79" selection-end-line="76" selection-end-column="79" />
+                <state relative-caret-position="1326">
+                  <caret line="84" lean-forward="true" selection-start-line="84" selection-end-line="84" />
                 </state>
               </provider>
             </entry>
           </file>
           <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/tests/PolygonTest.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="510">
+                  <caret line="30" column="53" selection-start-line="30" selection-start-column="53" selection-end-line="30" selection-end-column="53" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/tests/UtilsTest.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="1309">
-                  <caret line="77" column="40" selection-start-line="77" selection-start-column="40" selection-end-line="77" selection-end-column="40" />
+                <state relative-caret-position="2499">
+                  <caret line="147" column="30" selection-start-line="147" selection-start-column="30" selection-end-line="147" selection-end-column="30" />
                   <folding>
                     <element signature="imports" expanded="true" />
+                    <element signature="e#2621#2622#0" expanded="true" />
+                    <element signature="e#2700#2701#0" expanded="true" />
+                    <element signature="e#2754#2755#0" expanded="true" />
+                    <element signature="e#2839#2840#0" expanded="true" />
+                    <element signature="e#2898#2899#0" expanded="true" />
+                    <element signature="e#2978#2979#0" expanded="true" />
+                    <element signature="e#3042#3043#0" expanded="true" />
+                    <element signature="e#3126#3127#0" expanded="true" />
                   </folding>
                 </state>
               </provider>
@@ -149,15 +158,15 @@
         <option value="$PROJECT_DIR$/src/Utils.java" />
         <option value="$PROJECT_DIR$/tests/MainTest.java" />
         <option value="$PROJECT_DIR$/tests/Shapes/TriangleTest.java" />
+        <option value="$PROJECT_DIR$/tests/Shapes/PolygonTest.java" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/src/Main.java" />
+        <option value="$PROJECT_DIR$/src/Shapes/Polygon.java" />
+        <option value="$PROJECT_DIR$/tests/PolygonTest.java" />
+        <option value="$PROJECT_DIR$/tests/UtilsTest.java" />
+        <option value="$PROJECT_DIR$/src/Utilities/Utils.java" />
         <option value="$PROJECT_DIR$/src/Shapes/Triangle.java" />
         <option value="$PROJECT_DIR$/tests/TriangleTest.java" />
-        <option value="$PROJECT_DIR$/tests/UtilsTest.java" />
-        <option value="$PROJECT_DIR$/tests/Shapes/PolygonTest.java" />
-        <option value="$PROJECT_DIR$/src/Utilities/Utils.java" />
-        <option value="$PROJECT_DIR$/src/Main.java" />
-        <option value="$PROJECT_DIR$/tests/PolygonTest.java" />
-        <option value="$PROJECT_DIR$/src/Shapes/Polygon.java" />
-        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -196,6 +205,11 @@
               <item name="Triangles" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="Utilities" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Triangles" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Triangles" type="462c0819:PsiDirectoryNode" />
+              <item name="tests" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -252,7 +266,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.UtilsTest">
+  <component name="RunManager" selected="JUnit.TriangleTest">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="Triangles" />
@@ -260,11 +274,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PolygonTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="PolygonTest.determineTypeTest1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Triangles" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="PolygonTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="METHOD_NAME" value="determineTypeTest1" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -278,26 +293,39 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UtilsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TriangleTest.getTypeTest1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Triangles" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TriangleTest" />
+      <option name="METHOD_NAME" value="getTypeTest1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UtilsTest.selectInputsTest1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Triangles" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="UtilsTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="METHOD_NAME" value="selectInputsTest1" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
       <item itemvalue="Application.Main" />
-      <item itemvalue="JUnit.PolygonTest" />
+      <item itemvalue="JUnit.UtilsTest.selectInputsTest1" />
+      <item itemvalue="JUnit.PolygonTest.determineTypeTest1" />
       <item itemvalue="JUnit.TriangleTest" />
-      <item itemvalue="JUnit.UtilsTest" />
+      <item itemvalue="JUnit.TriangleTest.getTypeTest1" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.UtilsTest" />
-        <item itemvalue="JUnit.PolygonTest" />
         <item itemvalue="JUnit.TriangleTest" />
+        <item itemvalue="JUnit.TriangleTest.getTypeTest1" />
+        <item itemvalue="JUnit.PolygonTest.determineTypeTest1" />
+        <item itemvalue="JUnit.UtilsTest.selectInputsTest1" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
@@ -312,44 +340,44 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1554118720751</updated>
-      <workItem from="1554118722052" duration="15731000" />
+      <workItem from="1554118722052" duration="23763000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="PolygonTest_determineTypeTest4 - 2019.04.01 at 17h 50m 45s.xml">
-      <configuration name="PolygonTest.determineTypeTest4" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PolygonTest - 2019.04.01 at 17h 50m 52s.xml">
-      <configuration name="PolygonTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TriangleTest - 2019.04.01 at 17h 51m 18s.xml">
-      <configuration name="TriangleTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="UtilsTest - 2019.04.01 at 17h 51m 24s.xml">
-      <configuration name="UtilsTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="UtilsTest - 2019.04.01 at 17h 54m 36s.xml">
-      <configuration name="UtilsTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PolygonTest - 2019.04.01 at 17h 54m 40s.xml">
-      <configuration name="PolygonTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TriangleTest - 2019.04.01 at 17h 54m 42s.xml">
-      <configuration name="TriangleTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TriangleTest - 2019.04.01 at 17h 56m 51s.xml">
-      <configuration name="TriangleTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PolygonTest - 2019.04.01 at 17h 56m 54s.xml">
-      <configuration name="PolygonTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="UtilsTest - 2019.04.01 at 17h 56m 57s.xml">
       <configuration name="UtilsTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="UtilsTest - 2019.04.01 at 21h 06m 38s.xml">
+      <configuration name="UtilsTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UtilsTest - 2019.04.02 at 12h 51m 30s.xml">
+      <configuration name="UtilsTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PolygonTest_determineTypeTest1 - 2019.04.02 at 13h 10m 02s.xml">
+      <configuration name="PolygonTest.determineTypeTest1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TriangleTest - 2019.04.02 at 13h 11m 27s.xml">
+      <configuration name="TriangleTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TriangleTest_getTypeTest1 - 2019.04.02 at 13h 15m 35s.xml">
+      <configuration name="TriangleTest.getTypeTest1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TriangleTest_getTypeTest1 - 2019.04.02 at 13h 16m 03s.xml">
+      <configuration name="TriangleTest.getTypeTest1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TriangleTest_getTypeTest1 - 2019.04.02 at 13h 17m 13s.xml">
+      <configuration name="TriangleTest.getTypeTest1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TriangleTest_getTypeTest1 - 2019.04.02 at 13h 17m 35s.xml">
+      <configuration name="TriangleTest.getTypeTest1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TriangleTest - 2019.04.02 at 13h 18m 55s.xml">
+      <configuration name="TriangleTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15731000" />
+    <option name="totallyTimeSpent" value="23763000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1853" height="1055" extended-state="6" />
@@ -403,27 +431,63 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Utilities/Utils.java">
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="289">
+            <caret line="17" column="12" selection-start-line="17" selection-start-column="12" selection-end-line="17" selection-end-column="12" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/UtilsTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="758">
-          <caret line="55" column="1" selection-start-line="55" selection-start-column="1" selection-end-line="55" selection-end-column="1" />
+        <state relative-caret-position="2499">
+          <caret line="147" column="30" selection-start-line="147" selection-start-column="30" selection-end-line="147" selection-end-column="30" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#2621#2622#0" expanded="true" />
+            <element signature="e#2700#2701#0" expanded="true" />
+            <element signature="e#2754#2755#0" expanded="true" />
+            <element signature="e#2839#2840#0" expanded="true" />
+            <element signature="e#2898#2899#0" expanded="true" />
+            <element signature="e#2978#2979#0" expanded="true" />
+            <element signature="e#3042#3043#0" expanded="true" />
+            <element signature="e#3126#3127#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Shapes/Triangle.java">
+    <entry file="file://$PROJECT_DIR$/src/Shapes/Polygon.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        <state relative-caret-position="255">
+          <caret line="15" column="16" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
+          <folding>
+            <element signature="e#214#215#0" expanded="true" />
+            <element signature="e#252#253#0" expanded="true" />
+            <element signature="e#296#297#0" expanded="true" />
+            <element signature="e#372#373#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Utilities/Utils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="704">
+          <caret line="52" column="26" selection-start-line="52" selection-start-column="26" selection-end-line="52" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1571#1572#0" expanded="true" />
+            <element signature="e#1617#1618#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+        <state relative-caret-position="103">
+          <caret line="30" column="41" lean-forward="true" selection-start-line="30" selection-start-column="41" selection-end-line="30" selection-end-column="41" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -432,51 +496,29 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/tests/TriangleTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="12" column="51" lean-forward="true" selection-start-line="12" selection-start-column="51" selection-end-line="12" selection-end-column="51" />
+        <state relative-caret-position="1326">
+          <caret line="84" lean-forward="true" selection-start-line="84" selection-end-line="84" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/tests/PolygonTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1173">
-          <caret line="76" column="79" selection-start-line="76" selection-start-column="79" selection-end-line="76" selection-end-column="79" />
+        <state relative-caret-position="510">
+          <caret line="30" column="53" selection-start-line="30" selection-start-column="53" selection-end-line="30" selection-end-column="53" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests/UtilsTest.java">
+    <entry file="file://$PROJECT_DIR$/src/Shapes/Triangle.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1309">
-          <caret line="77" column="40" selection-start-line="77" selection-start-column="40" selection-end-line="77" selection-end-column="40" />
+        <state relative-caret-position="476">
+          <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#160#161#0" expanded="true" />
+            <element signature="e#188#189#0" expanded="true" />
+            <element signature="e#585#586#0" expanded="true" />
+            <element signature="e#612#613#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Shapes/Polygon.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#214#215#0" expanded="true" />
-            <element signature="e#252#253#0" expanded="true" />
-            <element signature="e#1101#1102#0" expanded="true" />
-            <element signature="e#1177#1178#0" expanded="true" />
-            <element signature="e#1262#1263#0" expanded="true" />
-            <element signature="e#1339#1340#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="289">
-            <caret line="17" column="12" selection-start-line="17" selection-start-column="12" selection-end-line="17" selection-end-column="12" />
-          </first_editor>
-          <second_editor />
         </state>
       </provider>
     </entry>
